@@ -1,0 +1,19 @@
+{
+    "intents": [{
+            "tag": "chào hỏi",
+            "patterns": ["Hi", "Tahm ơi", "đâu rồi", "chào", "hello"],
+            "responses": ["Hello, Ông chủ", "Ông chủ đây rồi ", "Hi , ông chủ cần gì không"],
+            "context_set": ""
+        },
+        {
+            "tag": "tạm biệt",
+            "patterns": ["Bye", "tạm biệt", "Goodbye", "nghỉ đây"],
+            "responses": ["làm gì làm đi", "dỗi", "Bye"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "cảm ơn"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "intents": [{
+            "tag": "chào hỏi",
+            "patterns": ["Hi", "Tahm ơi", "đâu rồi", "chào", "hello", "ê"],
+            "responses": ["Hello, Ông chủ", "Ông chủ đây rồi ", "Hi , ông chủ cần gì không"],
+            "context_set": ""
+        },
+        {
+            "tag": "tạm biệt",
+            "patterns": ["Bye", "tạm biệt", "Goodbye", "nghỉ đây"],
+            "responses": ["làm gì làm đi", "dỗi", "Bye"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "cảm ơn"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {
+            "tag": "Truyện cười",
+            "patterns": ["Kể truyện cười coi ", "tôi muốn nghe truyện cười", "kể chuyện  cười", "kiếm truyện cười", "tôi muốn nghe chuyện cười"],
+            "responses": ["Có một con chim cánh cụt thở lỗ đít , một ngày nó ngồi cuống và chết", "xăng giảm giá", "haha"]
+        },
+        {
+            "tag": "Năm sinh Sơn tùng",
+            "patterns": ["Sơn tùng sinh năm bao nhiêu ", "ngày sinh nhật của sơn tùng", "Sơn tùng mtp sinh năm bao nhiêu", "MTP sinh năm bao nhiêu"],
+            "responses": ["5 tháng 7, 1994"]
+        },
+        {
+            "tag": "Quê quán Sơn tùng",
+            "patterns": ["Sơn tùng sinh ở đâu  ", "quê của  của sơn tùng", "Sơn tùng mtp quê ở đâu", "MTP sinh ra ở đâu"],
+            "responses": ["thành phố Thái Bình, tỉnh Thái Bình"]
+        },
+        {
+            "tag": "Không Phải Dạng Vừa Đâu",
+            "patterns": ["Không Phải Dạng Vừa Đâu  ", "Tôi không phải dạng vừa đâu", "MTP", ""],
+            "responses": ["Không Phải Dạng Vừa Đâu",
+                "vừa vừa vừa vừa đâu...",
+                "Ohh ohh Yeah Ohh oh(Sơn Tùng MTP) oh ohh Ở sau bờ vai là những sầu lo Hình như đuổi theo là những nỗi lo....."
+            ]
+        },
+        {
+            "tag": "Hỏi tên",
+            "patterns": ["Bot tên gì", "Bạn tên gì", "Mày tên gì", "tên gì"],
+            "responses": ["mình là tahm", "gọi mình là tahm nghe", "tahm pro vip 123"]
+        },
+        {
+            "tag": "Hỏi khi nào có người yêu",
+            "patterns": ["bao giờ thì tao có người yêu", "khi nào t có ny", "khi nào mình có ny", "khi nào mình có ny", "khi nào mình có người yêu"],
+            "responses": ["Chắc là tận thế", "sao hỏi t", "hỏi mẹ cậu thử", "chờ mình biết ị "]
+        }
+    ]
+}
