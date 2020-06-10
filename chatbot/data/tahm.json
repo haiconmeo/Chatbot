@@ -48,5 +48,23 @@
             "patterns": ["bao giờ thì tao có người yêu", "khi nào t có ny", "khi nào mình có ny", "khi nào mình có ny", "khi nào mình có người yêu"],
             "responses": ["Chắc là tận thế", "sao hỏi t", "hỏi mẹ cậu thử", "chờ mình biết ị "]
         }
+        ,
+        {
+            "tag": " Khả năng lây lan của Virus Corona",
+            "patterns": [" Khả năng lây lan của Virus Corona", "  Virus Corona có Khả năng lây lan không", "  Virus Corona lâu lan kiểu gì "],
+            "responses": ["Virus Corona có thể lây lan liên tục từ người sang người:Lây truyền có thể thông qua tiếp xúc với dịch cơ thể của người bệnh, việc ho, hắt hơi hay bắt tay với người bệnh có thể khiến người xung quanh bị phơi nhiễm. "]
+        },
+        {
+            "tag": "kiểm tra đã bị lây nhiễm Virus",
+            "patterns": ["kiểm tra đã bị lây nhiễm Virus", "làm sao biết đã bị nhiễm virus", "dấu hiệu để biết nhiemx virus corona hay không", "làm sao để biết bị nhiễm corona"],
+            "responses": ["Khi có những dấu hiệu sốt, ho, khó thở, phải lập tức đeo khẩu trang, và đến ngay cơ sở y tế gần nhất để được tư vấn, khám và điều trị kịp thời"]
+        }
+        ,
+        {
+            "tag": "vắt xin chữa corona",
+            "patterns": ["có vắc xin corona hay không ", "Đã có vắt xin corona chưa", "đã tạo ra vắt xin phòng corona chưa"],
+            "responses": ["Hiện nay vẫn chưa có "]
+        }
+        
     ]
 }

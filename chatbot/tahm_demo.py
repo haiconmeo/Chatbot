@@ -32,10 +32,9 @@ except :
                     labels.append(intent['tag'])
 
     list_words = sorted(list(set(list_words)))
-        # print (words)
+
     labels =sorted(labels)
-    # print (list_words)
-    # print (labels)
+
     training = []
     output = []
     out_empty = [ 0 for _ in range(len(labels))]
@@ -56,8 +55,8 @@ training = np.array(training)
 output = np.array(output)
 tensorflow.reset_default_graph()
 net = tflearn.input_data(shape=[None,len(training[0])])
-net = tflearn.fully_connected(net,8)
-net = tflearn.fully_connected(net,8)
+net = tflearn.fully_connected(net,128)
+net = tflearn.fully_connected(net,68)
 net = tflearn.fully_connected(net,len(output[0]),activation='softmax')
 net = tflearn.regression(net)
 try :
@@ -66,6 +65,7 @@ except:
     model = tflearn.DNN(net)
     model.fit(training,output,n_epoch=1000,show_metric=True,batch_size=8)
     model.save("model.tflearn")
+
 
 
 
